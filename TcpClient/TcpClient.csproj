@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.cs~RF51093b4.TMP\**" />
+    <EmbeddedResource Remove="Program.cs~RF51093b4.TMP\**" />
+    <None Remove="Program.cs~RF51093b4.TMP\**" />
+  </ItemGroup>
+
+</Project>
